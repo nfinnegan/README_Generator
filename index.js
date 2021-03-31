@@ -18,9 +18,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-  fs.writeFileSync(path.join(__dirname, fileName), `${data}`, (err) => {
-    err ? console.log(err) : console.log("successfully created Readme!");
+function writeToFile(fileName, content) {
+  fs.writeFileSync(path.join(__dirname, fileName), content, (err) => {
+    err ? console.log(err) : console.log("successfully created Readme!"); //why doesn't this console log
   });
 }
 
@@ -28,8 +28,9 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((data) => {
     console.log(data);
+    const content = JSON.stringify(data);
     const fileName = "ReadMeTEST.md";
-    writeToFile(fileName, JSON.stringify(data));
+    writeToFile(fileName, content);
   });
 }
 
