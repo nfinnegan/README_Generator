@@ -2,8 +2,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
-const generateMarkdown = require("./utils/generateMarkdown");
-
+const generateMarkdown = require("./utils/generateMarkdown.js");
+//const utils = require("utils");
 // TODO: Create an array of questions for user input
 const questions = [
   {
@@ -68,9 +68,9 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, content) {
-  fs.writeFileSync(path.join(__dirname, fileName), content, (err) => {
-    err ? console.log(err) : console.log("successfully created Readme!"); //why doesn't this console log
-  });
+  fs.writeFileSync(path.join(__dirname, fileName), content, (err) =>
+    err ? console.log(err) : console.log("Success!")
+  );
 }
 
 // TODO: Create a function to initialize app
@@ -79,17 +79,12 @@ function init() {
     .prompt(questions)
     .then((data) => {
       console.log(data);
-      return data;
-    })
-    .then(function (data) {
       const content = JSON.stringify(data);
       const fileName = "/ReadMeTEST.md";
-      writeToFile(fileName, content);
+      writeToFile(fileName, generateMarkdown(content));
+      console.log("successfully created Readme!");
     })
-    .catch(
-      (err) =>
-        err ? console.log(err) : console.log("successfully created Readme!") //why doesn't this console log
-    );
+    .catch((err) => console.error(err));
 }
 
 // Function call to initialize app
