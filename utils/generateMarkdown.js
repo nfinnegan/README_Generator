@@ -76,8 +76,8 @@ function generateMarkdown(data) {
       ${data.tests}
 
   ## Questions
-  If you have any questions about this project or repo please feel free to reach out at ${data.email}.
-  If you'd like to check out more of my work you can find me at [${data.github}](https://github.com/nfinnegan) 
+  If you have any questions about this project or repo please feel free to reach out at [${data.email}](mailto:${data.email}).
+  If you'd like to check out more of my work you can find me at [${data.github}](https://github.com/${data.github}) 
 
   ## License
   This project is covered under the ${data.license} license.
