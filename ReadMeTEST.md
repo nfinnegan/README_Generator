@@ -1,8 +1,10 @@
-# Testing
+# ReadMe
+
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
   
-  readme generator
+  Generates read me
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,30 +16,30 @@
   * [License](#license)
 
   ## Installation
-    To install the necessary dependencies, please run the following in your terminal
+  To install the necessary dependencies, please run the following in your terminal:
 
     
-        npm init -y npm install inquirer
+        npm i
  
 
   ## Usage
 
-  run directly from the command line
+  
 
   ## Challenges Encountered
 
-  no challenges
+  tons
 
   ## Contributing
-  To contribute to this repo, please just create a PR or reach out directly
+  To contribute to this repo, please 
 
   ## Tests
 
       npm test
 
   ## Questions
-  If you have any questions about this project or repo please feel free to reach out at nfinneg2.
-  If you'd like to check out more of my work you can find me at [nfinnegan]
+  If you have any questions about this project or repo please feel free to reach out at nfinneg.
+  If you'd like to check out more of my work you can find me at [nfinnegan](https://github.com/nfinnegan) 
 
   ## License
-  This project is covered under the MIT license.
+  This project is covered under the APACHE 2.0 license.
