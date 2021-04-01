@@ -32,11 +32,6 @@ const questions = [
     message: "What challenges did you encounter?",
   },
   {
-    type: "input",
-    name: "futureDev",
-    message: "Do you have directions for future development?",
-  },
-  {
     type: "list",
     name: "license",
     message: "What kind of license should your project have?",
@@ -67,8 +62,8 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, content) {
-  fs.writeFileSync(path.join(__dirname, fileName), content, (err) =>
+function writeToFile(fileName, data) {
+  fs.writeFileSync(path.join(__dirname, fileName), data, (err) =>
     err ? console.log(err) : console.log("Success!")
   );
 }
