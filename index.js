@@ -78,12 +78,11 @@ function init() {
   inquirer
     .prompt(questions)
     .then((data) => {
-      console.log(data);
-      const content = JSON.stringify(data);
+      //console.log(data);
       const fileName = "/ReadMeTEST.md";
-      writeToFile(fileName, generateMarkdown(content));
-      console.log("successfully created Readme!");
+      writeToFile(fileName, generateMarkdown({ ...data }));
     })
+    .then(() => console.log("successfully created Readme!"))
     .catch((err) => console.error(err));
 }
 

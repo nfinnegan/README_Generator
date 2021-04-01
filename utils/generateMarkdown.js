@@ -21,10 +21,13 @@ function generateMarkdown(content) {
   ## Challenges Encountered
 
   ${content.challenges}
+
+ 
 `;
+  console.log(generateMarkdown(content));
 }
 
 module.exports = generateMarkdown;
 
-console.log(`${content.projName}`);
-console.log(`${content.challenges}`);
+//console.log(`${content.projName}`);
+//console.log(`${content.challenges}`);
