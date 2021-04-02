@@ -74,7 +74,7 @@ function init() {
     .prompt(questions)
     .then((data) => {
       //console.log(data);
-      const fileName = "/ReadMeTEST.md";
+      const fileName = "/ReadMeDEMO.md";
       writeToFile(fileName, generateMarkdown({ ...data }));
     })
     .then(() => console.log("successfully created Readme!"))

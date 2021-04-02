@@ -4,9 +4,13 @@
 
 ## Project
 
-## Description
+For this application, I worked on dynamically generating a ReadMe file for streamlined workflows.
 
-## User Story
+## Description 📁
+
+Based off of our introduction to Node.js & npm packages in last week's sprint, that skill/knowledge was put to the test in building this application. This application runs through the terminal. Simply follow the installation instructions, and then type `node index.js` in your terminal to get started. Based off your inputs, a ReadMe file will be generated for you to use.
+
+## User Story 👩
 
 ```md
 AS A developer
@@ -14,7 +18,7 @@ I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
 
-## Acceptance Criteria
+## Acceptance Criteria ✅
 
 ```md
 GIVEN a command-line application that accepts user input
@@ -34,9 +38,14 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-## Deployed Application
+## Installation 💾
 
-## Technologies Used
+To install the necessary dependencies, please run the following (individually) in your terminal:
+
+        npm init -y
+        npm install inquirer
+
+## Technologies Used 💻
 
 - Node.js
 - JavaScript
@@ -44,7 +53,9 @@ THEN I am taken to the corresponding section of the README
 
 ## Preview
 
-## Resources
+https://youtu.be/rou59dBzWAk
+
+## Resources 💡
 
 - https://stackoverflow.com/questions/42179037/writing-json-object-to-a-json-file-with-fs-writefilesync
 - https://www.youtube.com/watch?v=fBNz5xF-Kx4&list=PLillGF-RfqbZ2ybcoD2OaabW2P7Ws8CWu&index=3

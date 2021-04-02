@@ -1,10 +1,10 @@
 # ReadMe Generator
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
   ## Description
   
-  create a readme template through your terminal using node
+  Allows for a readMe to be dynamically generated based of off user input
 
   ## Table of Contents
   * [Installation](#installation)
@@ -24,22 +24,22 @@
 
   ## Usage
 
-  just create a new PR request
+  please run through your terminal
 
   ## Challenges Encountered
 
-  tons
+  none
 
   ## Contributing
-  To contribute to this repo, please feel free to make modifications
+  To contribute to this repo, please feel free to submit any PR requests or contact me directly 
 
   ## Tests
 
-      npm test
+      no tests 
 
   ## Questions
-  If you have any questions about this project or repo please feel free to reach out at [nfinneg2@gmail.com](mailto:nfinneg2@gmail.com).
+  If you have any questions about this project or repo please feel free to reach out at [test@gmail.com](mailto:test@gmail.com).
   If you'd like to check out more of my work you can find me at [nfinnegan](https://github.com/nfinnegan) 
 
   ## License
-  This project is covered under the MIT license.
+  This project is covered under the ISC license.
